@@ -1,0 +1,4 @@
+# enumerate
+classes = ['plane', 'apple']
+for y,cls in enumerate(classes):
+    print y,cls
