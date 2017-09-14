@@ -2,3 +2,8 @@
 classes = ['plane', 'apple']
 for y,cls in enumerate(classes):
     print y,cls
+np.flatnonzero()
+
+arr = np.array([5, 4, -2, 1, -2, 0, 4, 4, -6, -1])
+u, indices = np.unique(arr, return_inverse=True)
+u[np.argmax(np.bincount(indices))]
