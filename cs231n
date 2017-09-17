@@ -9,3 +9,5 @@ u, indices = np.unique(arr, return_inverse=True)
 u[np.argmax(np.bincount(indices))]
 
 np.array_split
+
+np.concatenate
